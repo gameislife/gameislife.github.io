@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.contact_us {
+    width: 100%;
+    max-width: 950px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.mapping{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.contact_information {
+  
+    padding: 2.3rem 2.2rem;
+    position: relative;
+}
+  
+.contact_information
+.title {
+    font-size: 2rem;
+    color:rgba(0, 0, 0, 0.8);
+}
+  
+.text {
+    color :rgba(0, 0, 0, 1);
+    margin: 1.5rem 0 2rem 0;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+  
+.information {
+    display: flex;
+    color:rgba(0, 0, 0, 1);
+    margin: 0.8rem 0;
+    align-items: center;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+  
+#icon {
+    width: 20px;
+    margin-right: 0.7rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+  
+.social_media_symbol {
+    padding: 2rem 0 0 0;
+}
+  
+.social_media_symbol p {
+    color:black;
+}
+  
+.icons {
+    display: flex;
+    margin-top: 0.5rem;
+}
+  
+.icons a {
+    width: 35px;
+    height: 35px;
+    color: rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+}
+  
+.icons a:hover {
+    transform: scale(1.05);
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media (max-width: 361px){
+
+  .container {
+    padding: 1.5rem;
+  }
+
+  .contact_information{
+    padding-left: 35px;
+  }
+  .contact_information
+  .title{
+    font-size: 30px;
+  }
+
+  .mapping{
+    display: none;
+  }
+
+} 
+
+@media (max-width: 321px){
+  .container {
+    padding: 1rem;
+  }
+
+  .contact_information{
+    padding-left: 25px;
+  }
+  .contact_information
+  .title{
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (min-width: 370px){
+
+  .container {
+    padding: 1.5rem;
+  }
+
+  .contact_us{
+    align-items: center;
+  }
+
+  .mapping{
+    display: none;
+  }
+
+}
+@media screen and (min-width: 540px){
+  .mapping{
+    display: contents;
+  }
+}
+
+@media screen and (min-width: 765px){
+  .mapping{
+    display: contents;
+  }
+}
+
+@media screen and (max-width: 280px){
+
+  .contact_information{
+    padding-left: 15px;
+  }
+  .contact_information
+  .title{
+    font-size: 22px;
+  }
+  .information{
+    display: inline;
+  } 
+
+  .contact_information .info{
+    width: 220px;
+  }
+}
