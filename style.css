@@ -241,7 +241,7 @@ button{
   align-content: center;
   row-gap: 3rem;
 }
-  
+
 .home_data_subtitle, 
 .home_data_title, 
 .home_social_icons, 
@@ -251,13 +251,13 @@ button{
 
 .home_data_subtitle {
   display: block;
-  font-weight: 700;
+  font-weight: 1000;
   margin-bottom: 0.76rem;
 }
   
 .home_data_title {
   font-size: var(--biggest-font-size);
-  font-weight: 500;
+  font-weight: 800;
   margin-bottom: 2.4rem;
 }
   
