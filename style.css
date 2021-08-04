@@ -533,6 +533,10 @@ article{
   height: 230px;
 }
 
+.video_description b{
+  font-weight: 5000;
+}
+
 .packs_container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
