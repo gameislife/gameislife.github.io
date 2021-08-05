@@ -723,19 +723,6 @@ footer{
 }
 
 
-/* <!--------------------------------------------------- SCROLL BAR ----------------------------------------------------------> */
-/* ::-webkit-scrollbar {
-  width: .55rem;
-  background-color: var(--scroll-bar-color);
-}
-  
-::-webkit-scrollbar-thumb {
-  background-color: var(--scroll-thumb-color);
-}
-  
-::-webkit-scrollbar-thumb:hover {
-  background-color: var(--text-color-light);
-} */
 
 /* <!--------------------------------------------------- SCROLL BAR ----------------------------------------------------------> */
 ::-webkit-scrollbar {
