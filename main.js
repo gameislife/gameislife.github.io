@@ -102,7 +102,7 @@ sr.reveal(`.home_data, .home_social_icons, .trending,
            .games_container,
            .specs_data, .specs_overlay,
            .packs_card,
-           .footer_data, .footer_rights, .section__title,
+           .footer_content, .footer_bottom, .section__title,
            .video_description, .specs_container,
            .comments_heading, .comments_container, .video_content, .service`,{
     origin: 'top',
