@@ -17,6 +17,12 @@ body{
 
 
 /* Utility Classes  and stylings */
+.game_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 img{
     width: 100%;
     display: block;
@@ -97,10 +103,6 @@ img{
 }
 .game{
     margin-bottom: 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .game:last-child{
