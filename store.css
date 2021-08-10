@@ -24,8 +24,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
 }
 
 .content h3 {
@@ -43,24 +45,25 @@
     font-size: 25px;
     margin: 15px 0;
     color: black;
-    line-height: 40px;
+    line-height: 30px;
 }
+
 
 @media screen and (max-width: 360px){
     .content{
         margin-left: 10px;
     }
    .content h3{
-       font-size: 50px;
+       font-size: 40px;
    }
 
    .content p{
-       font-size: 18px;
+       font-size: 15px;
        font-weight: bold;
    }
 }
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 361px){
     .content{
         margin-left: 10px;
     }
