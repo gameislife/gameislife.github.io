@@ -70,7 +70,7 @@ sr.reveal(`.home_data, .home_social_icons, .trending,
            .packs_card,
            .footer_content, .footer_bottom, .section__title,
            .video_description, .specs_container,
-           .comments_heading, .comments_container, .video_content, .service`,{
+           .comments_heading, .comments_container, .iframe-container, .service`,{
     origin: 'top',
     interval: 60,
 })
