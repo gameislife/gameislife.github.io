@@ -56,55 +56,25 @@ var swiper = new Swiper(".games_container", {
 
 
 
-// <!-------------------------------------------------- VIDEO WITH BUTTON ---------------------------------------------------------->
-const videoFile = document.getElementById('video-file'),
-      videoButton = document.getElementById('video-button'),
-      videoIcon = document.getElementById('video-icon')
-
-function playPause(){ 
-    if (videoFile.paused){
-        // Play video
-        videoFile.play()
-        // We change the icon
-        videoIcon.classList.add('ri-pause-line')
-        videoIcon.classList.remove('ri-play-line')
-    }
-    else {
-        // Pause video
-        videoFile.pause(); 
-        // We change the icon
-        videoIcon.classList.remove('ri-pause-line')
-        videoIcon.classList.add('ri-play-line')
-
-    }
-}
-videoButton.addEventListener('click', playPause)
-
-function finalVideo(){
-    // Video ends, icon change
-    videoIcon.classList.remove('ri-pause-line')
-    videoIcon.classList.add('ri-play-line')
-}
-// ended, when the video ends
-videoFile.addEventListener('ended', finalVideo)
-
 
 
 // <!-------------------------------------------------- ANIMATION - SECTIONS ---------------------------------------------------------->
+
+
 const sr = ScrollReveal({
     distance: '60px',
     duration: 2800,
     // reset: true,
-})
+    })
 
 
 sr.reveal(`.home_data, .home_social_icons, .trending,
            .games_container,
            .specs_data, .specs_overlay,
            .packs_card,
-           .footer_content, .footer_bottom, .section__title,
+           .footer_data, .footer_rights, .section__title,
            .video_description, .specs_container,
-           .comments_heading, .comments_container, .video_content, .service`,{
+           .comments_heading, .comments_container, .iframe-container, .service`,{
     origin: 'top',
     interval: 60,
 })

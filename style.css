@@ -406,6 +406,13 @@ button{
   background-image: none;
 }
 
+.additional{
+  padding-top: 40px;
+}
+.additional a{
+  padding-top: 5px;
+  text-decoration: underline;
+}
 
 
 
