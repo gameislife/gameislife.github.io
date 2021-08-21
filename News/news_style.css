@@ -12,6 +12,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .video_container{
     display: flex;
     justify-content: center;
@@ -26,6 +30,10 @@
     align-items: center;
     padding-bottom: 20px;
     border-bottom: rgba(0,0,0,0.5) 1px solid;
+}
+
+.first_video{
+    border: none;
 }
 
 @media screen and (min-width:958px) {
@@ -362,6 +370,34 @@
 
 
 
+.navigate{
+    margin-top: 70px;
+    width: 100%;    
+}
+
+.navigate_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigate_content a{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--blackRussian);
+}
+.navigate_content a:hover{
+    color: gray;
+}
+
+
+.news_next{
+    margin-top: 180px;
+}
+
+.text{
+    width: 100%;
+}
 
 /* <!--------------------------------------------------- SCROLL BAR ----------------------------------------------------------> */
 ::-webkit-scrollbar {

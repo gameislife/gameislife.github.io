@@ -58,7 +58,9 @@ var swiper = new Swiper(".games_container", {
 
 
 
-// <!-------------------------------------------------- ANIMATION - SECTIONS 
+// <!-------------------------------------------------- ANIMATION - SECTIONS ---------------------------------------------------------->
+
+
 const sr = ScrollReveal({
     distance: '60px',
     duration: 2800,
