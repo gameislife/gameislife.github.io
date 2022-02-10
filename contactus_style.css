@@ -76,6 +76,11 @@ textarea {
     font-size: 0.95rem;
     font-weight: bold;
 }
+
+.information a{
+  text-decoration: none;
+  color: black;
+}
   
 #icon {
     width: 20px;
